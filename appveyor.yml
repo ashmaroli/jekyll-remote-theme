@@ -5,7 +5,7 @@ clone_depth: 10
 build: off
 
 install:
-  - SET PATH=C:\Ruby%RUBY_FOLDER_VER%\bin;%PATH%
+  - SET PATH=C:\Ruby22\bin;%PATH%
   - bundle install --retry 5 --jobs=%NUMBER_OF_PROCESSORS% --clean --path vendor\bundle
 
 test_script:
